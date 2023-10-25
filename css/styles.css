@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     background: transparent;
+    box-sizing: border-box;
 }
 
 .container{
@@ -27,7 +28,6 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     padding: 1.5em 2em;
-    justify-content: top;
     height: 400px;
 
 }
@@ -35,9 +35,10 @@
 
 .title_first-section{
     font-family: var(--font-primary);
-    font-size: 3.5em;
+    font-size: 3.8em;
     font-weight: 80;
     color: var(--bourbon-600);
+    margin-top: -250px;
     
 }
 
@@ -45,8 +46,8 @@
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
     letter-spacing: 0.2em;
-    color: var(--black-900);
-
+    color: var(--black-800);
+    font-size: 1.2em;
 
 }
 
@@ -83,7 +84,7 @@
     color: var(--black-400);
     font-weight: 200;
     padding: 1em 1em;
-    background-color: var(--black-50);
+    background-color: #fff;
 
 }
 
@@ -91,18 +92,20 @@
 .date_third-section,
 .description_third-section,
 .button{
-    margin-top: 1em;
+    padding: 0.25em 0;
+    width: 100%;
 }
 
 .icon_third-section{
-    color: var(--black-900);
-    font-size: 2em;
+    width: 100%;
+    text-align: center;
+
 }
 
 .title_third-section{
     color: var(--black-900);
     font-weight: 400;
-
+    flex-direction: row;
 }
 
 .date_third-section{
@@ -130,11 +133,45 @@
     color: var(--black-100);
     background-color: var(--bourbon-600);
     font-size: 0.8em;
+    text-align: center;
+    font-weight: 400;
     padding: 10px 50px;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
+.aliance_icon{
+    width: 50px;
+    height: 55px;
+    margin: 0;
+}
+.brindis_icon{
+    width: 50px;
+    height: 55px;
+}
 .dress_icon{
     width: 60px;
     height: 60px;
+}
+
+.camera{
+    width: 60px;
+    height: 65px;
+}
+
+.bg-section{
+    background-color: var(--bourbon-600) ;
+    color: var(--black-100);
+}
+
+.color-font-section{
+    color: var(--black-100);
+}
+
+.photo-2   {
+    width: 48%;
+}
+
+.photo{
+    width: 97%;
 }

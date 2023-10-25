@@ -21,6 +21,7 @@
     --bourbon-400: #d5a13a;
     --bourbon-500: #c68b2c;
     --bourbon-600: #b57326;
+    --bourbon-600: #b0265b;
     --bourbon-700: #885020;
     --bourbon-800: #724121;
     --bourbon-900: #623721;
@@ -28,6 +29,7 @@
 
     --black-50: #f6f6f6;
     --black-100: #e7e7e7;
+    --black-100: #fae9f3;
     --black-200: #d1d1d1;
     --black-300: #b0b0b0;
     --black-400: #888888;
@@ -35,7 +37,7 @@
     --black-600: #5d5d5d;
     --black-700: #4f4f4f;
     --black-800: #454545;
-    --black-900: #3d3d3d;
+    --black-900: #4a0d23;
     --black-950: #000000;
 
     /* FONTS */
