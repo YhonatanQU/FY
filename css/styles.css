@@ -159,6 +159,11 @@
     height: 65px;
 }
 
+.gift_icon{
+    width: 100px;
+    height: 95px;
+}
+
 .bg-section{
     background-color: var(--bourbon-600) ;
     color: var(--black-100);
