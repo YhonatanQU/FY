@@ -23,12 +23,14 @@
 
 .first-section {
     background: var(--black-200);
-    background-image: url(../img/slide_first-section.jpg);
+    background-image: url(../img/banner_4.jpg);
     background-size:cover;
-    background-position: bottom center;
+    background-position:top center; 
     background-repeat: no-repeat;
+    width: 100%;
     padding: 1.5em 2em;
-    height: 400px;
+    height: 300px;
+    
 
 }
 
@@ -37,17 +39,17 @@
     font-family: var(--font-primary);
     font-size: 3.8em;
     font-weight: 80;
+
     color: var(--bourbon-600);
-    margin-top: -250px;
-    
 }
 
 .subtitle_first-section{
     font-family: 'Exo 2', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 0.2em;
     color: var(--black-800);
     font-size: 1.2em;
+
 
 }
 
@@ -55,7 +57,9 @@
     color: var(--black-500);
 }
 
-
+.second-section{
+    background-color: var(--black-50);
+}
 
 .second-section,
 .text_second-section{
@@ -86,6 +90,10 @@
     padding: 1em 1em;
     background-color: #fff;
 
+}
+
+.color_description{
+    color: var(--bourbon-600);
 }
 
 .descripcion_third-section,
