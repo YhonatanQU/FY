@@ -29,7 +29,7 @@
     background: var(--black-200);
     background-image: url(../img/banner_2.jpg);
     background-size:cover;
-    background-position:top right; 
+    background-position:right top; 
     background-repeat: no-repeat;
     width: 100%;
     padding: 1.5em 2em;
