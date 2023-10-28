@@ -23,6 +23,7 @@
 
 .text-bold-1{
     font-weight: 400;
+    color: var(--black-900);
 }
 
 .first-section {
