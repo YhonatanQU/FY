@@ -174,9 +174,15 @@
 }
 
 .gift_icon{
-    width: 100px;
-    height: 95px;
+    width: 90px;
+    height: 85px;
 }
+
+.confirm_icon{
+    width: 70px;
+    height: 70px;
+}
+
 
 .bg-section{
     background-color: var(--bourbon-600) ;
