@@ -27,8 +27,8 @@
 }
 
 .first-section {
-    background: var(--black-200);
-    background-image: url(../img/banner_2.jpg);
+    background: var(--black-150);
+    /*background-image: url(../img/banner_2.jpg);*/
     background-size:cover;
     background-position:right top; 
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
     font-family: var(--font-primary);
     font-size: 3.8em;
     font-weight: 80;
-    margin-left: -100px;
+    /*margin-left: -100px;*/
     color: var(--bourbon-600);
 }
 
@@ -52,8 +52,8 @@
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
     letter-spacing: 0.2em;
-    margin-left: -100px;
-    color: var(--black-800);
+   /* margin-left: -100px;*/
+    color: var(--black-50);
     font-size: 1.2em;
 
 
