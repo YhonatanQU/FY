@@ -23,7 +23,7 @@
 
 .text-bold-1{
     font-weight: 400;
-    color: var(--black-900);
+    color: var(--black-950);
 }
 
 .first-section {
@@ -76,7 +76,7 @@
 .title_text{
     font-family: 'Great Vibes', sans-serif;
     font-size: 2.5em;
-    color: var(--bourbon-650);
+    color: var(--black-150);
 }
 
 .description_text{
@@ -96,7 +96,7 @@
     font-weight: 200;
     padding: 1em 1em;
     background-color: #fff;
-
+    border-bottom: 1px solid var(--black-400);
 }
 
 .color_description{
