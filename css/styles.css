@@ -28,13 +28,13 @@
 
 .first-section {
     background: var(--black-150);
-    /*background-image: url(../img/banner_2.jpg);*/
+    background-image: url(../img/banner_-7.jpg);
     background-size:cover;
-    background-position:right top; 
+    background-position:center; 
     background-repeat: no-repeat;
     width: 100%;
     padding: 1.5em 2em;
-    height: 300px;
+    height: 400px;
     
 
 }
@@ -45,7 +45,8 @@
     font-size: 3.8em;
     font-weight: 80;
     /*margin-left: -100px;*/
-    color: var(--bourbon-650);
+    color: var(--bourbon-400);
+    
 }
 
 .subtitle_first-section{
@@ -54,10 +55,10 @@
     letter-spacing: 0.2em;
    /* margin-left: -100px;*/
     color: var(--black-50);
-    font-size: 1.2em;
-
-    text-shadow: 0 0 5px var(--black-50);
-
+    font-size: 1.6em;
+    margin-top: -150px;
+    /*text-shadow: 0 0 5px var(--black-50);*/
+    text-align: center;
 }
 
 .arrow_first-section{
