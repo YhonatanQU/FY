@@ -27,17 +27,20 @@
 }
 
 .first-section {
-    /*background: var(--black-150);*/
-    background-image: url(../img/back_1.jpg);
+    background: var(--bourbon-1000);
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)),
+                      url(../img/fondo-web-vintage-cut2.jpg);
     background-size:cover;
     background-position:center; 
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
+    width: 100vw;
     padding: 1.5em 2em;
-    height: 100VH;
+    height: 100vh;
     
 
 }
+
 
 
 .title_first-section{
