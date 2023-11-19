@@ -23,7 +23,7 @@
 
 .text-bold-1{
     font-weight: 400;
-    color: var(--black-950);
+    color: var(--black-900);
 }
 
 .first-section {
@@ -46,9 +46,8 @@
 .title_first-section{
     font-family: var(--font-primary);
     font-size: 3.8em;
-    font-weight: 80;
     /*margin-left: -100px;*/
-    color: var(--bourbon-400);
+    color: var(--bourbon-600);
     
 }
 
@@ -100,7 +99,7 @@
     font-weight: 200;
     padding: 1em 1em;
     background-color: #fff;
-    border-bottom: 1px solid var(--black-400);
+    
 }
 
 .color_description{
