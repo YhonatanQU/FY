@@ -118,7 +118,7 @@
 .icon_third-section{
     width: 100%;
     text-align: center;
-
+    margin-top: 10px;
 }
 
 .title_third-section{
@@ -141,6 +141,7 @@
 
 .hour_date span{
     font-size: 0.5em;
+    
 }
 
 .description_third-section{
@@ -205,4 +206,16 @@
 
 .photo{
     width: 97%;
+}
+
+.link{
+    font-size: 1rem;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.font-size{
+    font-size:1.5em;
 }
