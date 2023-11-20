@@ -28,8 +28,10 @@
 
 .first-section {
     background: var(--bourbon-1000);
-    background-image: linear-gradient(rgba(5,7,12,0.8), rgba(5,7,12,0.8)),
+    background-image: linear-gradient(rgba(5,7,12,0.70), rgba(5,7,12,0.70)),
                       url(../img/banner_-7.jpg);
+    background-image: linear-gradient(rgba(80,90,120,0.70), rgba(80,90,120,0.70)),
+                      url(../img/banner_-7.jpg);                 
     background-size:cover;
     background-position:center; 
     background-repeat: no-repeat;
@@ -47,7 +49,7 @@
     font-family: var(--font-secondary);
     font-size: 3.8em;
     /*margin-left: -100px;*/
-    color: var(--bourbon-600);
+    color: var(--bourbon-200);
     
 }
 
@@ -57,7 +59,6 @@
    /* margin-left: -100px;*/
     color: var(--black-50);
     font-size: 5em;
-    opacity: 0.8;
     /*
     margin-top: -550px;
     text-shadow: 0 0 5px var(--black-50);*/
@@ -218,4 +219,16 @@
 
 .font-size{
     font-size:1.5em;
+}
+
+#countdown{
+    color: var(--bourbon-300);
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 60px;
+    font-size: 1.5em;
+}
+
+.color-primary{
+    color: var(--bourbon-300);
+    margin-top: -150px;
 }

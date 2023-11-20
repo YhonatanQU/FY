@@ -10,13 +10,16 @@
 <body>
     <div class="container">
         <section class=" section first-section">
-            <!--<h1 class="title_first-section">Nos casamos</h1>-->
+            <!--<h1 class="title_first-section">Nos casamos</h1>
+            <p class="description_text color-primary">Y nosotros hemos llegado a saber y creer que Dios nos ama. Dios es amor. El que permanece en amor, permanece en Dios, y Dios en él.</p>
+-->
             <p class="subtitle_first-section">Flor  <br>& <br> Yhonatan</p>
            <!--
             <div class="arrow_first-section">
                 <i class="fa-solid fa-chevron-down"></i>    
             </div>
             -->
+            <div id="countdown"></div>
         </section>
         <section class="second-section section">
                 <div class="media_second-section">
@@ -119,6 +122,40 @@
 
 
     </div>
+
+    <script>
+        var end = new Date('12/02/2023 9:00 AM');
+        
+            var _second = 1000;
+            var _minute = _second * 60;
+            var _hour = _minute * 60;
+            var _day = _hour * 24;
+            var timer;
+        
+            function showRemaining() {
+                var now = new Date();
+       
+                var distance = end - now;
+                if (distance < 0) {
+        
+                    clearInterval(timer);
+                    document.getElementById('countdown').innerHTML = 'EXPIRED!';
+        
+                    return;
+                }
+                var days = Math.floor(distance / _day);
+                var hours = Math.floor((distance % _day) / _hour);
+                var minutes = Math.floor((distance % _hour) / _minute);
+                var seconds = Math.floor((distance % _minute) / _second);
+        
+                document.getElementById('countdown').innerHTML = days + ' D : ';
+                document.getElementById('countdown').innerHTML += hours + ' H : ';
+                document.getElementById('countdown').innerHTML += minutes + ' M : ';
+                document.getElementById('countdown').innerHTML += seconds + ' S';
+            }
+        
+            timer = setInterval(showRemaining, 1000);
+        </script>
 </body>
 </html>
 
